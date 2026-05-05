@@ -7,14 +7,6 @@ export default function CarbonTransactions() {
     <section className="mb-16 border-t border-gray-100 pt-12">
       <div className="flex items-center justify-between mb-8">
         <h2 className="text-h2 font-h2 text-on-surface">Carbon Credit Transactions</h2>
-        <div className="flex gap-2">
-          <button className="px-4 py-2 bg-white border border-outline-variant rounded-lg text-sm font-bold text-on-surface hover:bg-gray-50 transition-all">
-            Export Report
-          </button>
-          <button className="px-4 py-2 bg-primary text-white rounded-lg text-sm font-bold hover:opacity-90 transition-all">
-            + New Transaction
-          </button>
-        </div>
       </div>
 
       {/* Transaction Metrics */}
