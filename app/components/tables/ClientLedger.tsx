@@ -15,7 +15,7 @@ export default function ClientLedger({ maxHeight = 'max-h-[320px]' }: ClientLedg
     <div className="bg-white rounded-xl shadow-[0px_4px_20px_rgba(0,0,0,0.05)] border border-gray-100 flex flex-col">
       <div className="p-8 pb-4">
         <div className="flex items-center justify-between">
-          <h3 className="text-h3 font-h3 text-on-surface">Managed Clients Ledger</h3>
+          <h3 className="text-h3 font-h3 text-on-surface">Client Names</h3>
           <a className="text-primary font-bold text-sm hover:opacity-80 transition-opacity" href="#">View All</a>
         </div>
       </div>
